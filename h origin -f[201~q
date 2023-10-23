@@ -1,0 +1,151 @@
+[33mcommit d6eb469795745589ec363f8518a005c4254770be[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Mon Oct 16 19:32:34 2023 -0400
+
+    created hw05 files
+
+[33mcommit 991c73140e9f086008ced791e771cf11208c8e97[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Mon Oct 9 19:18:56 2023 -0400
+
+    Finished red_rover and add Lecture notes
+
+[33mcommit 627a2c18a4b6a2f91b0d4ebd9060532eacb0219f[m
+Merge: 6c62812 a9293be
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Thu Oct 5 20:01:03 2023 -0400
+
+    Merge branch 'main' of https://github.com/Bhuvaneswari-Raja/cmsc-201
+
+[33mcommit 6c628126cc57977e4c2caa9eb388aa8eec2ad7dc[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Thu Oct 5 20:00:55 2023 -0400
+
+    finished factor_me
+
+[33mcommit a9293be4dfbe436e909b2a5e3b7ddcbd696e8b10[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Thu Oct 5 16:50:46 2023 -0400
+
+    edited red_rover
+
+[33mcommit 4cb75a0d096292659347d5e7b0a77804085937b0[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Thu Oct 5 16:43:46 2023 -0400
+
+    Added comments on burger_builder, gauss_sum
+
+[33mcommit 79456839990c75bb1aafd08740dfa79c1e2947fd[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Thu Oct 5 16:00:27 2023 -0400
+
+    finished buger_builder, gauss_sum and rock_paper_scissors
+
+[33mcommit 4ac5c6b92bcc6e1face9df6ee2b1002e883cf16b[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Thu Oct 5 12:16:07 2023 -0400
+
+    finished rock_paper_scissors
+
+[33mcommit 133de13b70f5446461d141472d642642c7a6bd42[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 22:46:19 2023 -0400
+
+    finished burger_builder
+
+[33mcommit 538ead0422e61ecd5a55ae8404df4ede6641425f[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 19:32:25 2023 -0400
+
+    new_lab file for tomorrow
+
+[33mcommit 9bcdeed8cbb51cdbed30191a49e36bdb64161f1e[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 14:40:12 2023 -0400
+
+    edited ice_cream lab
+
+[33mcommit ad2c3edbfd1122a2e024969dbf268e94c8b3460e[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 13:11:02 2023 -0400
+
+    edited red_rover
+
+[33mcommit 22e5eedd31b300732f2f286b27f9599f33cb99c0[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 13:08:13 2023 -0400
+
+    deleted ipynb checkpoints
+
+[33mcommit 66abbba3430d82f18bf644c3a3e552110e9a62de[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Wed Oct 4 13:05:00 2023 -0400
+
+    Update README.md
+
+[33mcommit 45eb071b1c885d61b40932bbcd7afe5fad9b856b[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Wed Oct 4 12:44:35 2023 -0400
+
+    Update README.md
+
+[33mcommit 36b6eb648505768de3c42ef31d92aff64ec30637[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 11:03:32 2023 -0400
+
+    adding HW5 and Project 1
+
+[33mcommit 5f613cbe733b178978aa4f9e78309d76d0e7e671[m
+Merge: eff4f46 4433dd1
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 10:44:56 2023 -0400
+
+    Merge branch 'main' of https://github.com/Bhuvaneswari-Raja/cmsc-201
+
+[33mcommit eff4f466d9b948fde0ae5b6d5c62588a2ab70397[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Wed Oct 4 10:44:02 2023 -0400
+
+    added Project 1
+
+[33mcommit 3ae5ff9ff87a9476f2c1e93ed763499e0e2a8eb1[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 21:50:38 2023 -0400
+
+    edited burger_builder, exceed_gauss, and rock_paper_scissors
+
+[33mcommit bcdc017009ddf7f19bb5e0e4164101f47887fcdb[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 18:30:55 2023 -0400
+
+    edited exceed_gauss
+
+[33mcommit 4433dd1e1eddb438d3b0c2a041646206cda0da09[m
+Author: Bhuvaneswari-Raja <145596322+Bhuvaneswari-Raja@users.noreply.github.com>
+Date:   Tue Oct 3 18:28:26 2023 -0400
+
+    Create README.md
+
+[33mcommit 1c396b43e4270f7ba992a406186c11d4c28e60ff[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 18:21:06 2023 -0400
+
+    edited rock_paper_scissors
+
+[33mcommit a651055bd014e4ab9244e1dbb62ee22c721cd721[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 17:59:00 2023 -0400
+
+    edited burger_builder
+
+[33mcommit d4c335791904ca63911d149ebedb7a30e745e4fb[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 17:37:19 2023 -0400
+
+    Test commit
+
+[33mcommit 32a6bc501517de8fcc5fc2c0420a69733d7f77ea[m
+Author: Pooja Rajamaniakandan <rajamanikandanpooja@gmail.com>
+Date:   Tue Oct 3 17:32:47 2023 -0400
+
+    Initial commit of all cmsc 201 files
