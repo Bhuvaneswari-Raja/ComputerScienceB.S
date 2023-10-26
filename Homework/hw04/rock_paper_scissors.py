@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 """
 File:    rock_paper_scissors.py
 Author:  Pooja Rajamanikandan
@@ -13,12 +7,9 @@ E-mail:  le64534@umbc.edu
 Description: This program implements a game of rock, paper, scissors
     against the user and computer
 """
+import sys 
+from random import choice, seed
 
-
-# In[ ]:
-
-
-import sys from random import choice, seed
 if len(sys.argv) >= 2:
     seed(sys.argv[1])
 
@@ -65,11 +56,3 @@ if __name__ == "__main__":
             elif computer_choice == "paper":
                 print("Scissors cuts paper, you win")
             user_choice = input("Enter rock, paper, or scissors to play, stop to end. ")
-
-
-
-# In[ ]:
-
-
-
-

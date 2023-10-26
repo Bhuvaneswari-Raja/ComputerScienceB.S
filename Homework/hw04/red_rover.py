@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:    red_rover.py
 Author:  Pooja Rajamanikandan
@@ -12,11 +6,6 @@ Section: 54
 E-mail:  le64534@umbc.edu
 Description: The programs is used to play a game of Red Rover
 """
-
-
-# In[2]:
-
-
 if __name__ == "__main__":
     
     red_team = list()  #Initiates the red_team list 
@@ -99,10 +88,3 @@ if __name__ == "__main__":
                 print("The Red Team has won")
             if len(red_team) < len(blue_team):
                 print("The Blue Team has won")
-
-
-# In[ ]:
-
-
-
-

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 word = input("Enter a string: ")
 
 word = word.lower().strip().split()
@@ -24,5 +18,3 @@ if num > 0:
     print(word,"is a rotation with offset",num)
 else:
     print("There are no rotations of the string")
-    
-

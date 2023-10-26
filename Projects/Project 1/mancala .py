@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 """
 File: mancala.py
 Author: Pooja Rajamanikandan
@@ -12,10 +6,6 @@ Section: 54
 E-mail: le64534@umbc.edu
 Description: This program implements a game of Mancala
 """
-
-
-# In[10]:
-
 
 BLOCK_WIDTH = 6
 BLOCK_HEIGHT = 5
@@ -104,12 +94,6 @@ def draw_block(the_board, pos_x, pos_y, block_data):
         for j in range(BLOCK_WIDTH):
             the_board[1 + pos_y * (BLOCK_HEIGHT + 1) + i][1 + (pos_x + 1) * (BLOCK_WIDTH + 1) + j] = data[j]
 
-
-
-
-# In[9]:
-
-
 def get_player():
     player_1_name = input("Player 1 please tell me your name: ")
     player_2_name = input("Player 2 please tell me your name: ")
@@ -129,10 +113,3 @@ def run_game():
 if __name__ == "__main__":
     print("It works so far")
     #run_game()
-
-
-# In[ ]:
-
-
-
-

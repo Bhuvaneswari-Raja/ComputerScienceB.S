@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:        gandalf.py
 Author:      Pooja Rajamanikandan
@@ -12,11 +6,6 @@ Section:     50
 E-mail:      le64534@umbc.edu
 Description: A guessing game to detremine which "Lord of the Rings" character the user is.
 """
-
-
-# In[6]:
-
-
 character_race = input("Which race are you? (human/dwarf/elf/maiar/hobbit) ")
 
 if character_race.lower() == "human":
@@ -66,18 +55,3 @@ elif character_race.lower() == "dwarf":
 
 else:
     print("You are an Orc, sorry about that")
-
-        
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

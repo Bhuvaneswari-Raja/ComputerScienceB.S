@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:    factor_me.py
 Author:  Pooja Rajamanikandan
@@ -12,10 +6,6 @@ Section: 54
 E-mail:  le64534@umbc.edu
 Description: The program wil factor a number into prime factors less than 50
 """
-
-
-# In[ ]:
-
 
 if __name__ == "__main__":
     
@@ -36,11 +26,3 @@ if __name__ == "__main__":
             if user_num % list_of_primes[-1] != 0:
                 print("We didn't find any factors")
                 print("This part of the number couldn't be factored with \nprimes less than 50:")
-        
-
-
-# In[ ]:
-
-
-
-

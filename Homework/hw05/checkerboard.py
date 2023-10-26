@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:    checkerboard.py
 Author:  Pooja Rajamanikandan
@@ -12,11 +6,6 @@ Section: 54
 E-mail:  le64534@umbc.edu
 Description: The program will draw a checkerboard pattern using the symbols the user inputs
 """
-
-
-# In[16]:
-
-
 def checkerboard(size, symbol_1, symbol_2):
     switch = 1
     #Outer loop for the columns 
@@ -38,18 +27,3 @@ if __name__ == "__main__":
     
     temp_list = symbols.split()
     checkerboard(size, temp_list[0], temp_list[1])
-    
-
-
-# In[4]:
-
-
-for x in range(1,3+1):
-    print(x)
-
-
-# In[ ]:
-
-
-
-

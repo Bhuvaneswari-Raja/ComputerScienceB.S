@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """
 File:    minor_key.py
 Author:  Pooja Rajamanikandan
@@ -12,10 +6,6 @@ Section: 54
 E-mail:  le64534@umbc.edu
 Description: This program will determine the harmonic minor scale for the note the user inputs
 """
-
-
-# In[ ]:
-
 
 MUSICAL_NOTES = ['C', 'D\u266d', 'D', 'E\u266d', 'E', 'F', 'G\u266d', 'G', 'A\u266d', 'A', 'B\u266d', 'B']
 MINOR_SCALE_STEPS = [2, 1, 2, 2, 1, 3, 1]
@@ -72,10 +62,3 @@ if __name__ == "__main__":
             
         starting_note = input("\nEnter a starting note: ")
         note = set_note(starting_note)
-
-
-# In[ ]:
-
-
-
-

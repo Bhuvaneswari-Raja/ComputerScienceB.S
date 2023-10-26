@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:    pascal.py
 Author:  Pooja Rajamanikandan
@@ -13,10 +7,6 @@ E-mail:  le64534@umbc.edu
 Description: This program takes a list, and computes the next level of 
     Pascal's triangle based on the previous level
 """
-
-
-# In[ ]:
-
 
 def next_level(level):
     new_list = [1]
@@ -34,17 +24,10 @@ def next_level(level):
     
 if __name__ == "__main__":
     in_string = input('What values do you want to run next_level on(w/)? ')
-while in_string != '':
-    values = []
-    for x in in_string.strip():
-        values.append(int(x))
-        #print(values)
-    print(next_level(values))
-    in_string = input('What values do you want to run next_level on? ')
-
-
-# In[ ]:
-
-
-
-
+    while in_string != '':
+        values = []
+        for x in in_string.strip():
+            values.append(int(x))
+            #print(values)
+        print(next_level(values))
+        in_string = input('What values do you want to run next_level on? ')

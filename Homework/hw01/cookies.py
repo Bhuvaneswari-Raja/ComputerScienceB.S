@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """
 File:    cookies.py
 Author:  Pooja Rajamanikandan 
@@ -13,11 +7,6 @@ E-mail:  le64534@umbc.edu
 Description: Ask the user how many batches of they want to make
        and determine the amount of ingredients 
 """
-
-
-# In[5]:
-
-
 batches = float(input("How many batches of cookies do you want to make? "))
 
 flour = batches * 2.25
@@ -38,16 +27,3 @@ print(vanilla_extract,"teaspoons of vanila extract")
 print(baking_soda,"teaspoons of baking soda")
 print(salt,"teaspoons of salt")
 print(choco_chips,"cups of chocolate chips (or measue with your heart)" )
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

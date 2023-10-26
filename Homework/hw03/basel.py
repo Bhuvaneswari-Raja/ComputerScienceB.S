@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File: basel.py
 Author: Pooja Rajamanikandan
@@ -13,11 +7,6 @@ Email:  le64534@umbc.edu
 Description: calculates the approximation for the number the 
     user inputs
 """
-
-
-# In[8]:
-
-
 if __name__ == '__main__':
     sum_ending_point = int(input("What is the number of terms you want to sum? "))
 
@@ -27,12 +16,3 @@ if __name__ == '__main__':
         approximation_sum += (1/x**2)
         
     print("The approximation for",sum_ending_point,"terms is",approximation_sum)
-    
-    
-
-
-# In[ ]:
-
-
-
-

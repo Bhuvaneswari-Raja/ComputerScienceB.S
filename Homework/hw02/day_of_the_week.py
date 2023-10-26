@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:        leap_year.py
 Author:      Pooja Rajamanikandan
@@ -13,11 +7,6 @@ E-mail:      le64534@umbc.edu
 Description: Ask the user for a numerical day in September 2023 and
     tell them what day of the week it was 
 """
-
-
-# In[7]:
-
-
 num_date = int(input("What day of September 2023 is it? "))
 
 if num_date == 1 or num_date == 21:
@@ -47,30 +36,10 @@ else:
     print("That day",num_date,"is out of range, you must enter a number between 1 and 30")
 
 
-
-# In[ ]:
-
-
 print(16,"th")
-
-
-# In[ ]:
 
 
 num_date = int(input("What day of September 2023 is it? "))
 
 print("What is happening?  ",num_date == 2 or 9 )
 print(num_date)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

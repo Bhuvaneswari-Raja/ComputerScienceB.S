@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """
 File:    burger_builder.py
 Author:  Pooja Rajamanikandan
@@ -14,11 +8,6 @@ Description: build a hamburger or cheeseburger using the User input.
     Print out all the condiments in the burger and diplays if it was
     n-number of cheeseburger or hamburger.
 """
-
-
-# In[ ]:
-
-
 if __name__ == "__main__":
     bun = input("What do you want to add? ")
     condiment_list = list()
@@ -53,11 +42,3 @@ if __name__ == "__main__":
         print("You have created a {} -hamburger with the condiments: ".format(burger_counter))
         for x in condiment_list:
             print(x,end=", ")
-        
-
-
-# In[ ]:
-
-
-
-

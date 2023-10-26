@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File: basel.py
 Author: Pooja Rajamanikandan
@@ -12,10 +6,6 @@ Lab Section: 50
 Email:  le64534@umbc.edu
 Description: check for diphthong in the word the user inputs
 """
-
-
-# In[14]:
-
 
 if __name__ == '__main__':
     word = input("Tell me the word you wish to check for diphthongs: ")
@@ -35,19 +25,3 @@ if __name__ == '__main__':
             dipthong_detector += 1
 
     print("There are {} diphthongs in the string".format(dipthong_detector))
-            
-            
-    
-
-
-# In[1]:
-
-
-print("Hello Git")
-
-
-# In[ ]:
-
-
-
-

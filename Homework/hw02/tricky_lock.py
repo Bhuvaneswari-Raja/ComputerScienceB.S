@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File:        leap_year.py
 Author:      Pooja Rajamanikandan
@@ -13,10 +7,6 @@ E-mail:      le64534@umbc.edu
 Description: In order to open the lock, the user has to input two numbers
     that have the sum of 36 and the correct switch combination 
 """
-
-
-# In[8]:
-
 
 first_num  = int(input("What is the first number in the combination lock? "))
 second_num = int(input("What is the second number in the combination lock? "))
@@ -43,10 +33,3 @@ elif sum == 36 or locker_movement:
 else:
     print("The lock does not even budge, try again.")
     
-
-
-# In[ ]:
-
-
-
-

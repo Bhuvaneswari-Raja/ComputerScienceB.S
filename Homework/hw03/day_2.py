@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """
 File: day_2.py
 Author: Pooja Rajamanikandan
@@ -13,10 +7,6 @@ Email:  le64534@umbc.edu
 Description: The program will determine the day of the week using at least 
     one listand modulus division
 """
-
-
-# In[19]:
-
 
 if __name__ == "__main__":
     num_date = int(input("What day of September 2023 is it? "))
@@ -50,17 +40,3 @@ if __name__ == "__main__":
         print("September {}{} is a {}".format(num_date,suffix,days[3]))
     else:
         print("That day",num_date,"is out of range, you must enter a number between 1 and 30")
-
-
-
-# In[15]:
-
-
-4%7
-
-
-# In[ ]:
-
-
-
-

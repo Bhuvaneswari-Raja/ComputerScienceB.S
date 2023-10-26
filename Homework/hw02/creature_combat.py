@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 """
 File:        creature_combat.py
 Author:      Pooja Rajamanikandan
@@ -13,11 +7,6 @@ E-mail:      le64534@umbc.edu
 Description: Combat between two creatures will if one of the creature 
     wins or they both die or they both die
 """
-
-
-# In[8]:
-
-
 creature_1_name = input("What is the name of the first creature? ")
 creature_1_power = int(input("What is the power of the first creature? "))
 creature_1_toughness = int(input("What is the toughness of the first creature? "))
@@ -41,22 +30,3 @@ elif creature_1_stat < creature_2_stat:
     print("{} has died, {} wins".format(creature_1_name,creature_2_name))
 else:
     print("Both creatures live to fight another day")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

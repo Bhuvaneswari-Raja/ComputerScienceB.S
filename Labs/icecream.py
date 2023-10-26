@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[20]:
-
-
 """
 File:         icecream.py
 Author:       Pooja Rajamanikandan
@@ -14,11 +8,6 @@ Description:  The program will interate through a list of ice cream
     flavours and print which topping go well with that flavour. It will
     also display a special message for strawberry ice cream
 """
-
-
-# In[1]:
-
-
 if __name__ == "__main__":
     ice_cream_flavor = ["vanilla", "strawberry", "chocolate"]
     toppings = ["caramel", "marshmallow", "gummi bears","cherries"]
@@ -32,10 +21,3 @@ if __name__ == "__main__":
         else:
             for y in toppings:
                 print(x,"is tasty with",y)
-
-
-# In[ ]:
-
-
-
-

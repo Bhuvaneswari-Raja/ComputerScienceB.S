@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 """
 File: draw_a_square.py
 Author: Pooja Rajamanikandan
@@ -13,10 +7,6 @@ Email:  le64534@umbc.edu
 Description:  This program will ask the user for a size and then draw a 
     square using stars.
 """
-
-
-# In[7]:
-
 
 if __name__ == "__main__":
     square_size = int(input("What is the size of the square that we want to draw? "))
@@ -28,4 +18,3 @@ if __name__ == "__main__":
         else:
             print("*",end="")
             print(" "*(square_size-2)+"*")
-

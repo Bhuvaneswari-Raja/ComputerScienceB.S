@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 """
 File:    best_things.py
 Author:  Pooja Rajamanikandan 
@@ -13,11 +7,6 @@ E-mail:  le64534@umbc.edu
 Description: Ask the user questions about their favourite movie, song,
     game, and food. Then output something about each reponse.
 """
-
-
-# In[3]:
-
-
 fav_movie = input("Tell me your favourite movie: ")
 fav_song = input("Tell me your favourite song: ")
 fav_game = input("Tell me your favourite game: ")
@@ -27,10 +16,3 @@ print(fav_movie,"is a great flim!")
 print("I love to eat",fav_food,"!")
 print("I heard great things about",fav_game)
 print("Never heard of",fav_song,"though.")
-
-
-# In[ ]:
-
-
-
-

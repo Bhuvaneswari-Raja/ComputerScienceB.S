@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 """
 File:    exceed_gauss.py
 Author:  Pooja Rajamanikandan
@@ -13,11 +7,6 @@ E-mail:  le64534@umbc.edu
 Description: The program calculates the Gauss sum of 1 to a number given 
     by the user.
 """
-
-
-# In[10]:
-
-
 if __name__ == "__main__":
     
     gauss_range = int(input("What number do you want to test? "))
@@ -31,4 +20,3 @@ if __name__ == "__main__":
         gauss_sum += iterations
         
     print("After",iterations,"iterations, the gauss sum is",gauss_sum,"which exceeds (or is equal to) the number",gauss_range)
-

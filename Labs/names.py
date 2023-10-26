@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 def sum_list (numbers):
     """
     Sums a list of integers
@@ -14,10 +8,6 @@ def sum_list (numbers):
     for x in numbers:
         sum_of_list += x
     return sum_of_list
-
-
-# In[2]:
-
 
 def get_string_lengths(strings):
     """
@@ -31,10 +21,6 @@ def get_string_lengths(strings):
         string_length_list.append(len(x))
     return string_length_list
 
-
-# In[3]:
-
-
 def get_names():
     """
     Asks the user for a list of names
@@ -46,10 +32,6 @@ def get_names():
         name_list.append(user_name)
         user_name = input("Enter a name, STOP to stop: ")
     return name_list
-
-
-# In[4]:
-
 
 if __name__ == '__main__':
     kitties = [
@@ -85,6 +67,3 @@ if __name__ == '__main__':
     list_names = get_names()
     sum_of_names = sum_list(get_string_lengths(list_names))
     print("sum of lengths of the string in names =",sum_of_names)
-    
-
-
