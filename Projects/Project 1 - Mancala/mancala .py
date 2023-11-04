@@ -11,14 +11,12 @@ BLOCK_WIDTH = 6
 BLOCK_HEIGHT = 5
 BLOCK_SEP = "*"
 SPACE = ' '
-MANCALA_LIST = (0)
 
 
 def draw_board(top_cups, bottom_cups, mancala_a, mancala_b):
     """
     draw_board is the function that you should call in order to draw the board.
-    top_cups and bottom_cups are lists of strings.  Each string should be length BLOCK_WIDTH and 
-        each list should be of length BLOCK_HEIGHT.
+    top_cups and bottom_cups are lists of strings.  Each string should be length BLOCK_WIDTH and each list should be of length BLOCK_HEIGHT.
     mancala_a and mancala_b should be 2d lists of strings.  Each string should be BLOCK_WIDTH in length, 
         and each list should be 2 * BLOCK_HEIGHT + 1
 
@@ -58,7 +56,7 @@ def draw_board(top_cups, bottom_cups, mancala_a, mancala_b):
 
     draw_mancala(0, mancala_a, board)
     draw_mancala(1, mancala_b, board)
-
+    
     print('\n'.join([''.join(board[i]) for i in range(len(board))]))
 
 
@@ -103,13 +101,50 @@ def get_player():
 
 
 def take_turn(player, cups):
-    pass
+    coin = 1
+    
+def move_stones(cup):
+    cup_values = {0:0, 1:5,2:5,3:5,4:5,5:5,6:5,7:0,8:5,9:5,10:5,11:5,12:5,13:5}
+
+    if cup in cup_values:
+        while cup_values[cup] > 0:
+            cup_values[cup + 1] += 1
+            cup -= 1
 
 
 def run_game():
-    get_player()
+    list_of_players = get_player()
+    player_1 = list_of_players[0]
+    player_2 = list_of_players[1]
+
+    x = "Cup".ljust(BLOCK_WIDTH)
+    top_rows = [
+        [x, "1", "Stones", str(5), SPACE],
+        [x, "2", "Stones", str(5), SPACE],
+        [x, "3", "Stones", str(5), SPACE],
+        [x, "4", "Stones", str(5), SPACE],
+        [x, "5", "Stones", str(5), SPACE],
+        [x, "6", "Stones", str(5), SPACE]
+    ]
+
+    bottom_rows = [
+        [x, "7", "Stones", str(5), SPACE],
+        [x, "8", "Stones", str(5), SPACE],
+        [x, "9", "Stones", str(5), SPACE],
+        [x, "10", "Stones", str(5), SPACE],
+        [x, "11", "Stones", str(5), SPACE],
+        [x, "12", "Stones", str(5), SPACE]
+
+    ]
+
+    empty_space = SPACE.ljust(BLOCK_WIDTH)
+    first_mancala = [empty_space,empty_space, empty_space,player_2.ljust(BLOCK_WIDTH), empty_space, empty_space, "Stones".ljust(BLOCK_WIDTH), str(0).ljust(BLOCK_WIDTH), empty_space,empty_space,empty_space,empty_space]
+    second_mancala = [empty_space,empty_space, empty_space,player_1.ljust(BLOCK_WIDTH), empty_space, empty_space, "Stones".ljust(BLOCK_WIDTH), str(0).ljust(BLOCK_WIDTH), empty_space,empty_space,empty_space,empty_space]
+    
+    draw_board(top_rows,bottom_rows,first_mancala,second_mancala)
+
+    while winner != True:
 
 
 if __name__ == "__main__":
-    print("It works so far")
-    #run_game()
+    run_game()
