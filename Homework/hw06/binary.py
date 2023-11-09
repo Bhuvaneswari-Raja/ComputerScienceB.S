@@ -7,9 +7,21 @@ E-mail:  le64534@umbc.edu
 Description: 
 """
 
-def binary(n):
-    print(n)
+def determine_even_odd(num):
+    if num % 2 == 0:
+       return 0
+    else:
+       return 1
 
+def binary(decimal):
+   if decimal == 0:
+      return 0
+   else:
+      return determine_even_odd(decimal) + 10 * binary(decimal // 2)
+   
 if __name__ == '__main__':
-   print()
-       
+   dec_num = int(input("Tell me a number: "))
+
+   while dec_num >= 0:
+      print("0b"+str(binary(dec_num)), bin(dec_num)) 
+      dec_num = int(input("Tell me a number: "))
