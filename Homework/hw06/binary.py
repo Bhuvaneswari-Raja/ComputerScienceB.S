@@ -4,7 +4,8 @@ Author:  Pooja Rajamanikandan
 Date:    11/06/2023
 Section: 54
 E-mail:  le64534@umbc.edu
-Description: 
+Description: The program will use recursion to return a binary of the 
+    decimal number the user inputs. 
 """
 
 def determine_even_odd(num):
