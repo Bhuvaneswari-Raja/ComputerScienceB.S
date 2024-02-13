@@ -1,0 +1,9 @@
+"""
+File:    FILENAME.py
+Author:  YOUR NAME
+Date:    THE DATE
+Section: YOUR DISCUSSION SECTION NUMBER
+E-mail:  YOUR_EMAIL@umbc.edu
+Description:
+  DESCRIPTION OF WHAT THE PROGRAM DOES
+"""
