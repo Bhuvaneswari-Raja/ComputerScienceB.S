@@ -16,3 +16,5 @@ if __name__ == '__main__':
         approximation_sum += (1/x**2)
         
     print("The approximation for",sum_ending_point,"terms is",approximation_sum)
+
+
