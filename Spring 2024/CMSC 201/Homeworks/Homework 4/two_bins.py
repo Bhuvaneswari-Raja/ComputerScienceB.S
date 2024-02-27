@@ -9,41 +9,46 @@ Description:
 
 if __name__ == "__main__":
     user_input = input()
-    list_a = []
-    list_b = []
+    bin_a = []
+    bin_b = []
     while user_input != "quit":
         if user_input.split(" ")[0] == "add":
             if user_input.split(" ")[1].upper() == "A":
-                list_a.append(user_input.split(" ")[-1])
-            if user_input.split(" ")[1].upper() == "B":
-                list_b.append(user_input.split(" ")[-1])
-
+                bin_a.append(user_input.split(" ")[-1])
+            elif user_input.split(" ")[1].upper() == "B":
+                bin_b.append(user_input.split(" ")[-1])
+    
         elif user_input.split(" ")[0] == "remove":
             if user_input.split(" ")[1].upper() == "A":
-                if user_input.split(" ")[-1] not in list_a:
-                    print("Item not in Bin")
-                    user_input = input()
-
+                if user_input.split(" ")[-1] not in bin_a:
+                    print("Item not in Bin, Try again")
                 else:
-                    list_a.remove(user_input.split(" ")[-1])
+                    bin_a.remove(user_input.split(" ")[-1])
 
-            if user_input.split(" ")[1].upper() == "B":
-                if user_input.split(" ")[-1] not in list_b:
-                    print("Item not in Bin")
-                    user_input = input()
+            elif user_input.split(" ")[1].upper() == "B":
+                if user_input.split(" ")[-1] not in bin_b:
+                    print("Item not in Bin, Try again")
                 else:
-                    list_b.remove(user_input.split(" ")[-1])
+                    bin_b.remove(user_input.split(" ")[-1])
 
         elif user_input.split(" ")[0] == "display":
             if user_input.split(" ")[1].upper() == "A":
-                print("Bin A Contents:",list_a)
+                print("Bin A Contents:",bin_a)
             if user_input.split(" ")[1].upper() == "B":
-                print("Bin B Contents:",list_a)
-
+                print("Bin B Contents:",bin_b)
+        
         elif user_input.split(" ")[0] == "transfer":
             if user_input.split(" ")[1].upper() == "A":
-                list_b.append(list_a.pop(0))
+                if len(bin_a):
+                    bin_b.append(bin_a.pop(0))
+                else:
+                    print("Bin A is empty, Try again")
             if user_input.split(" ")[1].upper() == "B":
-                list_a.append(list_b.pop(0))
+                if len(bin_b):
+                    bin_a.append(bin_b.pop(0))
+                else:
+                    print("Bin B is empty, Try again")
 
         user_input = input()
+
+       
