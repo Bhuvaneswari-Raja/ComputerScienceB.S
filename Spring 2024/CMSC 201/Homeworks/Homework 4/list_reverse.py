@@ -41,6 +41,4 @@ if __name__ == "__main__":
     if len(new_list) < 1:
         print("The new list was empty")
     else:
-        for x in new_list:
-            print(x,end=", ")
-    
+        print(", ".join(new_list))

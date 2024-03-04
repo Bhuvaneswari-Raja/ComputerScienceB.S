@@ -22,9 +22,9 @@ if __name__ == "__main__":
 
     if len(missing_items) == 0:
         print("You have everything you need.")
-        print("You bought",grocery_list)
+        print("You bought",", ".join(grocery_list))
         
     else:
-        print("You still need ",missing_items)
-        print("You bought",grocery_list)
+        print("You still need ",", ".join(missing_items))
+        print("You bought",", ".join(grocery_list))
               

@@ -33,9 +33,9 @@ if __name__ == "__main__":
 
         elif user_input.split(" ")[0] == "display":
             if user_input.split(" ")[1].upper() == "A":
-                print("Bin A Contents:",bin_a)
+                print("Bin A Contents:",", ".join(bin_a))
             if user_input.split(" ")[1].upper() == "B":
-                print("Bin B Contents:",bin_b)
+                print("Bin B Contents:",", ".join(bin_b))
         
         elif user_input.split(" ")[0] == "transfer":
             if user_input.split(" ")[1].upper() == "A":
