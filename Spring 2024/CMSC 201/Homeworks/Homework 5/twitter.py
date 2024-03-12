@@ -4,7 +4,7 @@ Author:  Pooja Rajamanikandan
 Date:    03/04/2024
 Section: 16 
 E-mail:  le64534@umbc.edu
-Description: 
+Description: The program implements a function to extract hashtags and usernames from a tweet
 """
 UNIQUE_CHARACTERS = ["@","#"]
 EXIT_STRING = "quit"
@@ -12,14 +12,16 @@ EXIT_STRING = "quit"
 def twitter_ats(the_tweet):
     users = []
     hashtags = []
-    tweet_values =[users,hashtags]
-    temp = the_tweet.split()
+    tweet_values =[users,hashtags] 
+
+    temp = the_tweet.split() #temp is used to temporarly store the list of word in the tweet 
 
     for index in range(len(temp)):
-        if UNIQUE_CHARACTERS[0] in temp[index]:
+
+        if UNIQUE_CHARACTERS[0] in temp[index]: #checks for username
             users.append(temp[index][1:])
-        elif UNIQUE_CHARACTERS[1] in temp[index]:
-       
+
+        elif UNIQUE_CHARACTERS[1] in temp[index]: #checks for hashtags
             hashtags.append(temp[index][1:])
     
     return tweet_values

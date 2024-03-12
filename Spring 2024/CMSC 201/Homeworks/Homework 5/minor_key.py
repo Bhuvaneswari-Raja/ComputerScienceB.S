@@ -37,6 +37,7 @@ def set_minor_scale(index):
             
         minor_notes.append(MUSICAL_NOTES[index])
         index += x
+
     return minor_notes
 
 if __name__ == "__main__":
@@ -52,8 +53,7 @@ if __name__ == "__main__":
             starting_index = set_index(note)
             minor_scale = set_minor_scale(starting_index)
             minor_scale.append(note)
-            for x in minor_scale:
-                print(x,end = " ")
-                
+            print(" ".join(minor_scale))
+                            
             starting_note = input("\nEnter a starting note: ")
             note = set_note(starting_note)

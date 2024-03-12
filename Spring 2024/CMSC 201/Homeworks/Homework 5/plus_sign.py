@@ -2,9 +2,9 @@
 File:    plus_sign.py
 Author:  Pooja Rajamanikandan
 Date:    03/04/2024
-Section: 
+Section: 16
 E-mail:  le64534@umbc.edu
-Description: 
+Description: The program implements a function to check if the is plus sign by in a randomly generated 2-d list
 """
 import random
 
@@ -18,13 +18,14 @@ def display_grid(the_grid):
        print(' '.join(row))
 
 def is_plus_there(my_grid):
-   for r in range(len(my_grid)-2):
-      for c in range(1,len(my_grid[r])-1):
+   for r in range(len(my_grid)-2): # disregards the last two rows of the grid
+      for c in range(1,len(my_grid[r])-1): #considers only the 1 index value and the second to last index value
+
          if my_grid[r][c] == "*":
-            if my_grid[r+1][c] == "*" and my_grid[r+2][c] == "*":
-               if my_grid[r+1][c-1] == "*" and my_grid[r+1][c+1] == "*":
-                  return True
-      
+            if my_grid[r+1][c] == "*" and my_grid[r+2][c] == "*": # checks the 2 columns 
+               if my_grid[r+1][c-1] == "*" and my_grid[r+1][c+1] == "*": #checks the 2 index values rows of the same row
+                  return True 
+   
    return False
                
             

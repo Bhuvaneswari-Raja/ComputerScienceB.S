@@ -4,25 +4,28 @@ Author:  Pooja Rajamanikandan
 Date:    03/04/2024
 Section: 16
 E-mail:  le64534@umbc.edu
-Description: 
+Description: The program implements a function that returns the total cost of a food order.
 """
 
-PRICES = [5,3,2.5,8.5,4]
 EXIT_STRING = "place order"
 
 def fast_food_receipt(order):
     total_cost = 0
+    
     for x in range(len(order)):
-        if "burger" in order[x] and "sandwich" in order[x]:
-            total_cost += PRICES[0]
+
+        if "burger" in order[x] or "sandwich" in order[x]:
+            total_cost += 5.0
         elif order[x] == "fries":
-            total_cost += PRICES[1]
+            total_cost += 3.0
         elif order[x] in ["coke","sprite","mountain dew"]:
-            total_cost += PRICES[2]
+            total_cost += 2.5
         elif order[x] == "combo":
-            total_cost += PRICES[3]
+            total_cost += 8.5
         else:
-            total_cost += PRICES[4]
+            total_cost += 4.0
+        
+
     return total_cost
 
 if __name__ == "__main__":
@@ -42,23 +45,26 @@ if __name__ == "__main__":
     
         item = input("What would you like to order? ")
     
-
-    min_count = burger
-    if fries < min_count:
+    # the maximum number of combos needed
+    min_count = 0
+    if burger <= fries and burger <= drink:
+        min_count = burger
+    elif fries <= burger and fries <= drink:
         min_count = fries
-    if drink < min_count:
-        min_count = drink
+    else:
+        min_count = drink 
 
-    combo_extra = ["combo" * min_count]
+    # calculates the number combos and add it to a list
+    combos = ["combo" for i in range(min_count)]
 
-    extras = ["burger" for i in range(burger-len(com))] + \
-        ["fries" for i in range(fries-len(com))] + \
-            ["coke" for i in range(drink-len(com))]   
+    # calcultes any extras from the combos and add all of them to a list
+    extras = ["burger" for i in range(burger-min_count)] + \
+        ["fries" for i in range(fries-min_count)] + \
+            ["coke" for i in range(drink-min_count)]   
     
 
-
-
-    #total = fast_food_receipt(order + com + extras)
+    #combines the number of combos, extras from the combos and any addtional and is paased as a parameter
+    total = fast_food_receipt(order + combos + extras)
     print("The total bill is",total)
 
 
